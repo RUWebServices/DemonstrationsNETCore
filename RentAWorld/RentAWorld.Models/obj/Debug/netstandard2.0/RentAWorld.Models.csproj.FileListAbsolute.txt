@@ -1,0 +1,8 @@
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Models/bin/Debug/netstandard2.0/RentAWorld.Models.deps.json
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Models/bin/Debug/netstandard2.0/RentAWorld.Models.dll
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Models/bin/Debug/netstandard2.0/RentAWorld.Models.pdb
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Models/obj/Debug/netstandard2.0/RentAWorld.Models.csproj.CoreCompileInputs.cache
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Models/obj/Debug/netstandard2.0/RentAWorld.Models.AssemblyInfoInputs.cache
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Models/obj/Debug/netstandard2.0/RentAWorld.Models.AssemblyInfo.cs
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Models/obj/Debug/netstandard2.0/RentAWorld.Models.dll
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Models/obj/Debug/netstandard2.0/RentAWorld.Models.pdb

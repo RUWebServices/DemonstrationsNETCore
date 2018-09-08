@@ -1,0 +1,13 @@
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/bin/Debug/netstandard2.0/RentAWorld.Services.deps.json
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/bin/Debug/netstandard2.0/RentAWorld.Services.dll
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/bin/Debug/netstandard2.0/RentAWorld.Services.pdb
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/bin/Debug/netstandard2.0/RentAWorld.Models.dll
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/bin/Debug/netstandard2.0/RentAWorld.Repositories.dll
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/bin/Debug/netstandard2.0/RentAWorld.Models.pdb
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/bin/Debug/netstandard2.0/RentAWorld.Repositories.pdb
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/obj/Debug/netstandard2.0/RentAWorld.Services.csproj.CoreCompileInputs.cache
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/obj/Debug/netstandard2.0/RentAWorld.Services.AssemblyInfoInputs.cache
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/obj/Debug/netstandard2.0/RentAWorld.Services.AssemblyInfo.cs
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/obj/Debug/netstandard2.0/RentAWorld.Services.csproj.CopyComplete
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/obj/Debug/netstandard2.0/RentAWorld.Services.dll
+/Users/arnarleifs/Desktop/Develop/RU/WebServices/PublicCode/RentAWorld/RentAWorld.Services/obj/Debug/netstandard2.0/RentAWorld.Services.pdb

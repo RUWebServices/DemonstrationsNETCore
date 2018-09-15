@@ -30,6 +30,16 @@ namespace NetCoreExamples.Repositories.Implementations
 
         public CustomerDto GetCustomerById(int id) => Mapper.Map<CustomerDto>(_dataProvider.GetCustomers().FirstOrDefault(c => c.Id == id));
 
-        public IEnumerable<CustomerDto> GetAllCustomer() => _dataProvider.GetCustomers().Select(c => Mapper.Map<CustomerDto>(c));
+        public IEnumerable<CustomerDto> GetAllCustomer() => _dataProvider.GetCustomers().Select(c => new CustomerDto
+        {
+            Id = c.Id,
+            Name = c.Name,
+            Ssn = c.Ssn,
+            Email = c.Email,
+            StreetAddress = c.StreetAddress,
+            City = c.City,
+            Country = c.Country,
+            Bio = c.Bio
+        });
     }
 }

@@ -16,6 +16,7 @@ using NetCoreExamples.Repositories.Implementations;
 using NetCoreExamples.Repositories.Interfaces;
 using NetCoreExamples.Services.Implementations;
 using NetCoreExamples.Services.Interfaces;
+using NetCoreExamples.WebApi.Extensions;
 
 namespace NetCoreExamples.WebApi
 {
@@ -35,6 +36,7 @@ namespace NetCoreExamples.WebApi
 
             services.AddTransient<ICustomerService, CustomerService>();
             services.AddTransient<ICustomerRepository, CustomerRepository>();
+            services.AddTransient<ILogService, LogService>();
             services.AddSingleton<IDataProvider, DataProvider>();
         }
 
@@ -46,6 +48,7 @@ namespace NetCoreExamples.WebApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.ConfigureExceptionHandler();
             app.UseMvc();
 
             AutoMapper.Mapper.Initialize(cfg => {

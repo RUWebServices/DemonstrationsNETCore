@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using NetCoreExamples.Models.Dtos;
+using NetCoreExamples.Models.Exceptions;
 using NetCoreExamples.Models.InputModels;
 using NetCoreExamples.Services;
 using NetCoreExamples.Services.Implementations;
@@ -30,7 +32,6 @@ namespace NetCoreExamples.WebApi.Controllers
         public IActionResult GetCustomerById(int id)
         {
             var customer = _customerService.GetCustomerById(id);
-            if (customer == null) { return NotFound($"Customer with id {id} was not found."); }
             return Ok(customer);
         }
 
@@ -38,7 +39,7 @@ namespace NetCoreExamples.WebApi.Controllers
         [Route("")]
         public IActionResult CreateNewCustomer([FromBody] CustomerInputModel customer)
         {
-            if (!ModelState.IsValid) { return StatusCode(412, customer); }
+            if (!ModelState.IsValid) { throw new ModelFormatException("Customer was not properly formatted."); }
 
             return Ok();
         }
